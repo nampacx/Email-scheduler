@@ -5,22 +5,6 @@ Documentation was written by ChatGPT
 ## Overview
 This code is an implementation of an email scheduler function in C#, built using Microsoft Azure Function. The purpose of this function is to read email data from an Azure Table storage and send emails to the recipients based on a specific schedule.
 
-## Dependencies
-The code uses the following external libraries and components:
-```
-System
-System.Net
-System.Net.Mail
-System.Threading.Tasks
-Microsoft.Azure.WebJobs
-Microsoft.Extensions.Logging
-Microsoft.Azure.WebJobs.Extensions.Tables
-Azure.Data.Tables
-Azure
-Microsoft.Extensions.Configuration
-System.Runtime.CompilerServices
-```
-
 ## Functionality
 
 The main functionality of the code is implemented in the Run method. It is a timer trigger function that is executed at a specific schedule as defined by the TimerTrigger attribute, which is set to run daily at midnight (0 0 0 * * *).

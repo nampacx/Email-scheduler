@@ -24,4 +24,4 @@ The code uses the ILogger object passed as an argument to the function to log in
 The sender's email address and password are stored as user secrets, which are stored securely and can be retrieved at runtime using the IConfiguration object and GetValue method. The ConfigurationBuilder class is used to build the configuration object.
 
 ## Conclusion
-This code provides a basic implementation of an email scheduler function in C#, built using Microsoft Azure WebJobs and Azure Table storage. The function is triggered at a specific schedule and reads email data from an Azure Table storage to send emails to the recipients. The code also includes logging and configuration capabilities.
+This code provides a basic implementation of an email scheduler function in C#, built using Microsoft Azure Function and Azure Table storage. The function is triggered at a specific schedule and reads email data from an Azure Table storage to send emails to the recipients. The code also includes logging and configuration capabilities.

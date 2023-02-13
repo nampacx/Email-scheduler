@@ -1,14 +1,12 @@
+using Azure;
+using Azure.Data.Tables;
+using Microsoft.Azure.WebJobs;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Net;
 using System.Net.Mail;
 using System.Threading.Tasks;
-using Microsoft.Azure.WebJobs;
-using Microsoft.Extensions.Logging;
-using Microsoft.Azure.WebJobs.Extensions.Tables;
-using Azure.Data.Tables;
-using Azure;
-using Microsoft.Extensions.Configuration;
-using System.Runtime.CompilerServices;
 
 namespace FunctionApp
 {
